@@ -1,0 +1,18 @@
+{
+  "name": "mental-maths",
+  "version": "1.0.0",
+  "description": "Alexa Skill for Mental Maths",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "ravi.mohan@roonga.com.au",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-model": "^1.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "npm": "^6.4.1"
+  }
+}

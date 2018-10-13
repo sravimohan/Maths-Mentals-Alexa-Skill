@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.66f0a01e-291a-4ffe-9938-e1ba9e24dde0",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-MathsQuizSkill2-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "edcbe98069ae009551c021db1a7dcaf0"
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:258032939606:function:ask-custom-MathsQuizSkill2-default",
+            "functionName": "arn:aws:lambda:us-east-1:258032939606:function:ask-custom-MathsQuizSkill2-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "7a8e156e-38ef-4ff3-a2cb-a672c5efcf29"
+          }
+        ],
+        "interactionModel": {
+          "en-AU": {
+            "eTag": "a6f3a070035d1ab4e687703c9fe6243c"
+          }
+        }
+      }
+    }
+  }
+}

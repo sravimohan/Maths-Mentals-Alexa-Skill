@@ -1,0 +1,43 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-AU": {
+          "summary": "Mental Maths trainer and quiz",
+          "examplePhrases": [
+            "Alexa open maths mentals",
+            "Alexa start maths mentals",
+            "Alexa play maths mentals"
+          ],
+          "name": "Maths Mentals",
+          "description": "Maths Mentals is a maths quiz game.  You can choose between 5 levels, with 1 being easiest and 5 the hardest.  The quiz includes addition, subtraction, multiplication and division with varying levels of difficulty. The questions are dynamic and every quiz is different. Maths Mentals is suitable for kids from kindergarten all the way to primary school.",
+          "smallIconUri": "https://s3-ap-southeast-2.amazonaws.com/maths-mentals/icon_108_A2Z.png",
+          "largeIconUri": "https://s3-ap-southeast-2.amazonaws.com/maths-mentals/icon_512_A2Z.png",
+          "keywords": [
+            "kids",
+            "maths",
+            "quiz",
+            "school",
+            "primary school",
+            "kindergarten",
+            "maths quiz",
+            "mental maths",
+            "maths mentals"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Start by saying 'Alexa play maths mentals. Choose a level when prompted and then answer questions. Answer 10 questions to finish the quiz.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
